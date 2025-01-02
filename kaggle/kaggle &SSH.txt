@@ -1,0 +1,31 @@
+【kaggle】
+1. kaggleのフォルダーを作る
+2. ターミナルで pip install kaggle
+3. export KAGGLE_CONFIG_DIR=kaggle
+4. chmod 600 kaggle/kaggle.json
+
+【Git】
+0. SSH key作成方法
+以下はpaperspaceとgithubをsshで接続する。Paperspace上での作業は以下の通り
+ 0.1 公開keyの生成
+  ssh-keygen -t rsa -b 4096 -C oneok.ash@gmail.com
+
+  上記コマンドを実行後、鍵はデフォルトで以下に保存されます：
+  秘密鍵: ~/.ssh/id_rsa
+  公開鍵: ~/.ssh/id_rsa.pub
+ 0.2 公開鍵の内容を確認 公開鍵の内容を確認し、コピーします。
+  cat ~/.ssh/id_rsa.pub
+ 0.3 GitHubに登録
+  GitHubの「Settings > SSH and GPG keys」に移動。
+  「New SSH key」をクリック。
+  公開鍵の内容をコピー＆ペーストして登録。
+
+1. clone作成
+!git clone git@github.com:coffeemil9/CIBMTR.git
+
+2. push方法
+# !cd CIBMTR
+# !git config --global user.name coffeemil9
+# !git config --global user.email "oneok.ash@gmail.com"
+# !git commit -m "Add new file"
+# !git push origin main

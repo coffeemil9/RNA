@@ -1,0 +1,13 @@
+{
+    "loss_function": "Cox",
+    "grow_policy": "Depthwise",
+    "random_seed": 2025,
+    "verbose": 500,
+    "n_estimators": 1136,
+    "learning_rate": 0.06731150536070069,
+    "max_depth": 6,
+    "colsample_bylevel": 0.6948788396823923,
+    "min_child_samples": 13,
+    "l2_leaf_reg": 0.061852557552403584,
+    "subsample": 0.08358875397233823
+}

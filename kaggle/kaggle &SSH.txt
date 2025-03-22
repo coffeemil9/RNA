@@ -29,3 +29,14 @@
 # !git config --global user.email "oneok.ash@gmail.com"
 # !git commit -m "Add new file"
 # !git push origin main
+
+3. その他
+3.1 現在接続されているリポジトリの調べ方
+# git remote -v
+
+3.1 接続するリポジトリの変更方法
+git remote set-url origin <正しいリポジトリのURL>
+
+
+
+H325612640911a

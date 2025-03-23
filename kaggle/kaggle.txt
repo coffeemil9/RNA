@@ -1,4 +1,0 @@
-1. kaggleのフォルダーを作る
-2. ターミナルで pip install kaggle
-3. export KAGGLE_CONFIG_DIR=kaggle
-4. chmod 600 kaggle/kaggle.json

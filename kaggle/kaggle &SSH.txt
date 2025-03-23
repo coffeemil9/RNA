@@ -38,3 +38,8 @@
 git remote set-url origin <正しいリポジトリのURL>
 
 3.3 そもそもの、SSH Authentication の設定方法
+# 別写真の通り
+3.3.1 Authorization をHTMLからSSHに変更する方法
+# これは、gituhubのリポジトリごとに、どのAuthorizationの方法を取るか決められていて、デフォルトではHTMLになっている。
+# 変更方法は下記の通り。
+# git remote set-url origin git@github.com:coffeemil9/{リポジトリ名}

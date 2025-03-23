@@ -35,11 +35,12 @@
 # git remote -v
 
 3.2 接続するリポジトリの変更方法
-git remote set-url origin <正しいリポジトリのURL>
+# 新しいkaggle コンペを始めた時は、これをしなければ前のコンペのリポジトリに接続されてしまう可能性があうので注意する。
+# git remote set-url origin <正しいリポジトリのURL>
 
 3.3 そもそもの、SSH Authentication の設定方法
 # 別写真の通り
-3.3.1 Authorization をHTMLからSSHに変更する方法
-# これは、gituhubのリポジトリごとに、どのAuthorizationの方法を取るか決められていて、デフォルトではHTMLになっている。
-# 変更方法は下記の通り。
-# git remote set-url origin git@github.com:coffeemil9/{リポジトリ名}
+ 3.3.1 Authorization をHTMLからSSHに変更する方法
+ # これは、gituhubのリポジトリごとに、どのAuthorizationの方法を取るか決められていて、デフォルトではHTMLになっている。
+ # 変更方法は下記の通り。
+ # git remote set-url origin git@github.com:coffeemil9/{リポジトリ名}

@@ -34,9 +34,7 @@
 3.1 現在接続されているリポジトリの調べ方
 # git remote -v
 
-3.1 接続するリポジトリの変更方法
+3.2 接続するリポジトリの変更方法
 git remote set-url origin <正しいリポジトリのURL>
 
-
-
-H325612640911a
+3.3 そもそもの、SSH Authentication の設定方法
